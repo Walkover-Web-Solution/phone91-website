@@ -1,0 +1,18 @@
+/*ALL: IE Fixes*/
+
+/*.ie7 .title {
+    padding-top: 20px;
+}*/
+/* color : green\9; /* IE8 and below */  
+/* *color : yellow; /* IE7 and below */
+
+/*.ie7 .home-box { width:25.66%;}
+ IE6, IE7, IE8 */
+/*.home-box{  width:28.66%\9; } */ 
+
+
+/*.home-box{ *width:27.66% !ie; }*/
+
+
+
+/*sign in page*/

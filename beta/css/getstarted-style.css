@@ -1,0 +1,130 @@
+@charset "utf-8";
+/*======= about container ========*/
+#get-container {
+	padding: 50px 0
+}
+/*creating line art*/
+#line-art{
+	margin-top:30px;
+	border-left:3px solid #C8C8C8;
+	padding:50px 0 80px 40px;
+}
+#line-art:before{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	background:#c8c8c8;
+	height:3px;
+	width:50%;
+}
+
+#line-art article{float:left; width:42%}
+#line-art figure{float:right; width:42%}
+#line-art figure img{width:100%}
+
+
+.count-circle{
+	width:64px;
+	height:64px;
+	display:inline-block;
+	background:#ffcd53;
+	color:#fff;
+	font-weight:bolder;
+	font-size:36px;
+	line-height:64px;
+	text-align:center;
+	border-radius:50%;
+	position:absolute
+}
+.count-circle.one{
+	top:-32px;
+	left:-32px
+}
+.count-circle.two{
+	top:-32px;
+	right:-32px
+}
+/*three sections*/
+#line-art-sec{
+	border:3px solid #c8c8c8;
+	border-left:0;
+}
+.get-sec{width:27.33%; margin:0 3%; float:left; padding:40px 0 40px; position:relative}
+.get-sec-icon{
+	width:36px;
+	height:36px;
+	border:2px solid #999;
+	border-radius:50%;
+	display:block;
+	padding:20px;
+	margin:0 auto 20px;
+}
+.get-sec-icon i{opacity:0.6; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";}
+.get-sec .cnt-head{margin-bottom:15px; text-align:center}
+
+[class^="sm-cir-"]{
+	height:38px;
+	width:38px;
+	background:#c8c8c8;
+	color:#fff;
+	line-height:38px;
+	text-align:center;
+	font-weight:bolder;
+	display:block;
+	position:absolute;
+	top:-24px;
+	border-radius:50%;
+	font-size:20px;left:50%; margin-left:-19px
+}
+/*last row*/
+#line-art-last{
+	border-left:3px solid #c8c8c8;
+	padding:100px 0;
+}
+#big-text{font-size:3.5em; text-align:center}
+
+/*======for ie========*/
+.get-sec{*width:26.33%;}
+.btn-block.btn{*padding-right:0; *padding-left:0}
+
+
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 1140px) {
+}
+@media only screen and (max-width: 980px) {
+}
+
+@media only screen and (max-width: 768px) {
+	#get-container{font-size:80%}
+	.get-sec .cnt-head {font-size:20px; line-height:24px;}
+	.para16 {font-size:14px; line-height:26px;}
+	#line-art article{width:50%}
+}
+
+@media only screen and (max-width: 480px) {
+	#line-art article, #line-art figure  {
+		width: 100%;
+		float:none;
+		margin-bottom:20px;
+	}
+	.count-circle.one{
+		left: 50%;
+		margin-left:-32px;
+	}
+	.count-circle.two {
+		left:0;
+	}
+	.get-sec {
+		float:none;
+		width:90%;
+		margin-bottom:30px;
+	}
+	#big-text {
+		font-size:2.5em;
+		line-height:1.5em
+	}
+}
+
+@media only screen and (max-width: 360px) {
+}

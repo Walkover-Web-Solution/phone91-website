@@ -1,0 +1,42 @@
+/*======= about container ========*/
+#get-container { padding: 50px 0 }
+#cntBanPrnt { padding-bottom:26px }
+#cntBanPrnt section { float:left; width:50%; }
+#cntBanPrnt span { width:24px; height:24px; padding:10px; background:#fff; border-radius:50%; float:left; display:block; margin-right:10px }
+#cntBanPrnt h4 { float:left; line-height:44px; font-size:20px; font-weight:lighter }
+#tab-wrap { background:#f9f9f9; height:52px; }
+#tab-wrap a { font-weight:lighter; font-size:18px; color:#333333; padding:0 36px; line-height:50px; height:50px; display:inline-block; border-top:2px solid #f9f9f9; }
+#tab-wrap a:hover, #tab-wrap a.active { background:#fff; border-top-color:#296fa2; }
+#form-wrap {padding:30px; }
+.cont-head { padding:10px 0; border-bottom:1px solid #c8c8c8; font-size:20px; color: #296fa2; margin:40px 0 15px; }
+dl { padding-bottom:10px; }
+dl dt { float:left; margin-right:10px; }
+dl dd { float:left; line-height:14px; }
+/*form style start*/
+.row { position:relative; margin-bottom:20px }
+.row label { width:16px; height:16px; padding:12px; display:inline-block; position:absolute; background:#666666; z-index:12;  *margin-top:1px; *padding:13px 12px;}
+.row input { width:100%; height:40px;  *width:80%; *line-height:38px; *height:40px; border:1px solid #c8c8c8; padding-left:50px; }
+.row select { width:100%; border:1px solid #c8c8c8; padding:10px 10px 10px 50px; height:40px;  *width:80%;}
+.row select option { padding-left:50px; line-height:24px; height:24px; }
+.row textarea { width:100%; height:140px; border:1px solid #c8c8c8; resize:none; padding:10px 0 10px 50px;  *width:80%;}
+#txtrow label { bottom:0; top:0; height:inherit }
+.row button { width:100%;  *padding-left:0; *padding-right:0; *width:80%;}
+#txtrow label.textMsgIcons { height:115px; }
+.row input:focus, .row textarea:focus { border-style:dashed }
+.row input.error, .row select.error, .row textarea.error { border:1px solid #E65D39; color:#E65D39; }
+.row input.valid, .row select.valid, .row textarea.valid { border:1px solid #4DAF7C; color:#4DAF7C }
+.row label.valid { color:#4DAF7C }
+.row label.error { background: none; clear: both; display: block; margin: 9px 0 0; color:#E65D39; padding: 0; position: inherit; width: auto; }
+
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 1140px) {}
+@media only screen and (max-width: 980px) {}
+ @media only screen and (max-width: 768px) {
+#get-container {font-size:80%}
+#cntBanPrnt section { float: none; width: 270px; margin:0 auto 15px;}
+}
+@media only screen and (max-width: 480px) {
+#form-wrap aside {float:none;width:100%;margin-bottom:30px;}
+#form-wrap .pdL3, #form-wrap .pdR3 {padding:0}
+}
+ @media only screen and (max-width: 360px) {}

@@ -1,0 +1,15 @@
+#cc-banner h2 {
+font-size: 36px;
+line-height: 40px;
+margin-bottom: 15px;
+font-weight: lighter;
+}
+#cc-banner {
+padding: 65px 0;
+border: 1px solid #e9b32e;
+color: #333333;
+font-weight: lighter;
+}
+#cc-container{
+padding: 60px 0;
+}

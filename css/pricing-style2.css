@@ -1,0 +1,106 @@
+/*======= about container ========*/
+#search-container { padding: 40px 0; }
+#searchWrap { background: #FFFFFF; border-radius: 5px; padding: 0; position: relative; width: 65%; margin:40px auto 0;}
+.searchOffer { margin:20px 0}
+.textOffer {  font-size: 16px;    font-weight: lighter;    line-height: 25px;    margin:10px auto 100px;    text-align: right;    width: 65%; }
+#searchWrap input { border: medium none; float: left; font-size: 17px; font-weight: normal; height: 53px; margin: 0; padding: 0 10px; width: 60%; }
+#selwrpa { float:right; border-left:1px solid #666; padding:0 20px; width:100px; position:relative }
+.currencySelectDropdown { border: 1px solid transparent; height: 28px; line-height:28px; overflow: hidden; font-size:18px; font-weight:bolder; width:80px }
+.pickDown { display: inline-block; position: relative; margin-top: -2px; float: right; overflow: hidden; vertical-align: top }
+.pickDown:before { display: inline-block; content: url('https://d2q70htueg64l7.cloudfront.net/currency-pick-down.png'); position: relative }
+.userCurrency { position: absolute; left: 0; top: 0; height: 30px; line-height: 30px; opacity: 0; padding: 0; border: 0; cursor: pointer; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" }
+.userCurrency option { height:18px; line-height:18px; padding:4px 5px; border-bottom:1px solid #dcdcdc }
+.userCurrency option:hover { background:#eaeaea }
+/*static result container style*/
+#st-container { position:relative; top:-40px; }
+#static-result aside {    background: #FFFFFF;    border-top-left-radius: 7px;   border-top-right-radius: 7px;    float: left;    margin: 0 40px 0 0;   padding: 18px 25px 15px;    width: 17%;}
+.pricingflag{ margin-right:8px; float:left;}
+#static-result aside:last-child{ margin-right:0;}
+.bgtxt { font-size:36px }
+.bgtxt sup { font-size:24px }
+.bgtxt span { font-size:18px }
+/*result container */
+#result-container { padding:30px 0; /*margin-bottom:100px;*/ }
+.restxt { float:left; font-size:24px; font-weight:lighter; line-height:44px }
+#result-container h4 { font-size:26px; font-weight:lighter; padding:30px 0 }
+#table-wrapper { position:relative; margin-top:30px; }
+#table-scroll {background:#fff }
+#table-wrapper table { width:100%;}
+#prctbl {background:white; font-size:18px }
+.priceTable thead th{   color: #333333;    font-size: 22px;    font-weight: lighter;    padding: 10px 30px;    text-align: center;   width: 30%; background:#E6E6E6}
+.priceTable thead th.themeBg { color:#fff; background:#296FA2}
+.priceTable thead th:first-child{ text-align:left;}
+#prctbl tbody td { padding:10px 30px; text-align:center; width:30% }
+#prctbl tbody td.first { text-align:left }
+.tbbtn { background:#666666; color:white; padding:4px 10px 6px; font-size:16px }
+.tbbtn:hover { background:#296FA2 }
+/*============= for ie specific style ==============*/
+#searchWrap input { *float:left;*width:50%}
+#selwrpa { background: none repeat scroll 0 0 #296FA2; border-bottom-left-radius: 5px; border-left: 1px solid #666666; border-top-left-radius: 5px; color: #FFFFFF; float: left; padding: 11px 0 12px 20px; *float:left;*width:40%; *position:inherit}
+#selwrpa select { padding: 5px; width: 122px }
+.currencySelectDropdown { *display:none}
+.pickDown { *display:none}
+.pickDown:before { *display:none}
+.userCurrency {*position: inherit;*left: inherit;*top: inherit; height: 52px; *line-height:inherit;*padding:5px;*border:1px solid #c8c8c8;*display:block}
+#st-container { *position:relative; *z-index:-30}
+/*Pricing Autocomplete*/
+.ui-helper-hidden-accessible { display:none }
+.ui-autocomplete { position:absolute; border:1px solid #ccc; background:#fff; z-index:99 }
+.ui-autocomplete li { margin: 0px; padding: 2px 5px; cursor: default; display: block; overflow: hidden; border-bottom: 1px solid #CCCCCC; list-style: none outside none; padding: 10px 10px 5px 10px; cursor:pointer; }
+.ui-autocomplete li:last-child { border:0 }
+.searchwrap { border-left:1px solid #EDEDED; float:right; display:block; padding:15px 13px 7px; cursor:pointer }
+.flag-48 { background-image: url("https://d2q70htueg64l7.cloudfront.net/flag-sprite.png"); display: block; float: left; height: 48px; margin-right: 10px; width: 48px; }
+.flag-48.GB { background-position: 0 -576px; }
+.flag-48.IN { background-position: 0 0; }
+.flag-48.PK { background-position: 0 -48px; }
+.flag-48.ZA { background-position: 0 -96px; }
+.flag-48.KE { background-position: 0 -144px; }
+.flag-48.NG { background-position: 0 -192px; }
+.flag-48.AE { background-position: 0 -240px; }
+.flag-48.MY { background-position: 0 -288px; }
+.flag-48.SG { background-position: 0 -384px; }
+.flag-48.BR { background-position: 0 -432px; }
+.flag-48.BD { background-position: 0 -480px; }
+.flag-48.ID { background-position: 0 -528px; }
+#offers { padding:50px 0}
+.offerHead { color:#286EA1; font-size:35px; font-weight:lighter; text-align:center; margin:0 0 35px 0}
+.innerContent { padding:0 46px 46px 46px; color:#333; font-weight:lighter; border:1px solid #DADADA}
+.arrow_box {	position: relative;}
+.arrow_box:after, .arrow_box:before {	border: medium solid rgba(0, 0, 0, 0);    content: " ";    height: 0;    left: 50%;    pointer-events: none;    position: absolute;    top: 100%;    width: 0;}
+.arrow_box:after {	 border-width: 30px;    margin-left: -30px}
+.arrow_box:before {	   border-color: #FFFFFF rgba(51, 51, 51, 0) rgba(51, 51, 51, 0);    border-width: 15px;    margin-left: -36px;    margin-top: -1px;}
+.popuphead{ font-size:25px; color:#333; margin:0 0 13px}
+.innerContent p {     font-size: 16px;    line-height: 25px;    margin: 0 0 18px;}
+.left { float:left; text-align:right; color:#999; width:64%; padding-top:46px}
+.right {   float: left;    margin-left: 30px;    padding-top: 64px;    width: 22%;}
+.bigFace{ font-size:18px; color:#333;}
+.right  img { width:100%;}
+.btn-fb {    background: #3B4998;    border: 1px solid #303B7B;    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 0 rgba(255, 255, 255, 0.2) inset;    color: #FFFFFF;    font-size: 15px;    margin-right: 10px;    padding: 8px 12px;    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);}
+.btn-fb:hover { background:#303B7B}
+
+/*payment accepted via*/
+.payVia{background:url(../images/pay-via.png); width:400px; height:42px; margin: 20px auto 50px; opacity: .7;}
+
+@media only screen and (min-width: 770px)  and (max-width: 1080px) {
+.fltxt { height:auto;}
+}
+
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 750px) {
+#searchWrap {width:100%}
+.textOffer {margin:0;}
+}
+@media only screen and (max-width: 768px) {
+#static-result aside {	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float:left; width:100%; margin-bottom:30px}	
+.left {    float: none;    text-align: left;    width: 100%;}
+.right {float: none;  width: 50%}
+}
+@media only screen and (max-width: 480px) {
+#static-result aside {float:none;width:100%}
+#selwrpa {width:auto;padding:11px 4px 12px}
+.currencySelectDropdown {width:58px;}
+.searchwrap {display:none;}
+#selwrpa select {width:auto;}
+.priceTable thead th {    font-size: 17px;    padding: 10px;}
+#prctbl tbody td {    font-size: 14px;    padding: 10px; }
+}

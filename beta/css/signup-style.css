@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*======= about container ========*/
+#common-banner { padding-bottom:150px }
+#common-banner h2 { line-height: 50px; margin-bottom:0; }
+.sign-icon { width:75% }
+.sign-icon img { width:100% }
+#form-wrap {margin:50px 0;}
+#form-wrap aside.first { float:left; width:60%; border-right:1px solid #e0e0e0; }
+#form-wrap aside.last {width:40%; float:left;}
+/*signup buttons*/
+.signin { text-align: center; width: 100%; }
+.button { font-size: 18px; padding: 20px 30px; border-radius:3px; }
+.button.googleplus { background: none repeat scroll 0 0 #DD4B39; border: 1px solid #CA3523; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 0 rgba(255, 255, 255, 0.2) inset; color: #FFFFFF; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); margin-right:20px; }
+.button.googleplus:hover { background: none repeat scroll 0 0 #CA3523; }
+.button.googleplus:active { background: none repeat scroll 0 0 #DD4B39; }
+.button.facebook { background: none repeat scroll 0 0 #3B4998; border: 1px solid #303B7B; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 0 rgba(255, 255, 255, 0.2) inset; color: #FFFFFF; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); margin:0 auto; width:200px;}
+.button.facebook:hover {background: none repeat scroll 0 0 #303B7B;}
+.button.facebook:active {background: none repeat scroll 0 0 #3B4998;}
+/*or style*/
+#orwrap { position:relative; padding:10px 0 }
+#or { background:#e0e0e0; height:1px; border-bottom:1px solid #fff; margin:38px 0;}
+#orcircle { width:48px; height:46px; display:block; position:absolute; left:50%; z-index:12; top:26px; background:#e0e0e0; border-radius:50%; margin-left:-24px; text-align:center; line-height:48px; font-size:18px;}
+/*form style start*/
+.row { position:relative; margin-bottom:20px}
+.lbl { display:block; line-height:20px; margin-bottom:5px;}
+.cmninpt { width:100%; height:34px; border:1px solid #c8c8c8; padding-left:10px;}
+.row select { width:100%; border:1px solid #c8c8c8; padding:7px 10px 7px 10px; height:34px}
+.row select option { padding-left:10px; line-height:24px; height:24px;}
+.row textarea { width:100%; height:140px; border:1px solid #c8c8c8; resize:none; padding:10px;}
+#spro { padding-top:10px}
+#spro label { margin:0 10px;}
+.row button { width:100%; margin-bottom:20px;}
+.row input:focus, .row textarea:focus { border-style:dashed}
+aside.last figure { margin-bottom:40px; width:100%;}
+aside.last figure img { width:77%;}
+/*DL, DT, DD TAGS LIST DATA*/
+dl { padding-bottom:20px;}
+dl dt {width:36px; height:36px; border:2px solid #999; border-radius:50%; display:block; padding:20px; margin-right:20px; float:left }
+dl dt i {opacity: 0.6;}
+dl dd {float:left; line-height:24px; padding:10px 0; width:240px; font-size:16px; font-weight:lighter }
+dl.last dd { padding:3px 0; }
+#splrow .frs { width:80% }
+
+.status{ display: block;    font-size: 20px;    font-weight: lighter;    margin: 0 0 20px;    text-align: center;}
+#livechat-full {display:none}
+
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 1140px) {
+ .button {
+ font-size: 16px;
+ padding: 10px 20px;
+}
+ dl dt, dl dd {
+ float:none;
+}
+ dl dd {
+ width:100%
+}
+ dl.last dd {
+ padding:10px 0;
+}
+}
+@media only screen and (max-width: 980px) {
+}
+ @media only screen and (max-width: 768px) {
+#get-container {font-size:80%}
+#cntBanPrnt section { float: none; width: 235px; margin:0 auto 15px;}
+.button { font-size: 16px; padding: 10px 20px; width:100%; margin-bottom:20px; -webkit-box-sizing: border-box; 	-moz-box-sizing: border-box; 	box-sizing: border-box;}
+.button.googleplus {margin-right:0}
+aside.last figure img { width:95%;}
+#splrow .col-2 {float:none;width:100%}
+#splrow .pdL3, #splrow .pdR3 {padding:0}
+}
+@media only screen and (max-width: 480px) {
+#form-wrap aside.first {float:none;width:100%;margin-bottom:30px;border-right:0}
+#form-wrap .pdL3, #form-wrap .pdR3 {padding:0}
+#form-wrap aside.last {display:none;}
+}
+ @media only screen and (max-width: 360px) {
+}

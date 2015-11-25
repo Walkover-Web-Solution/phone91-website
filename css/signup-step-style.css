@@ -1,0 +1,98 @@
+/*======= Signup Step ========*/
+#step-top { padding:30px 0 0; font-size: 36px; font-weight:lighter; margin-bottom:30px; }
+h2 { font-size: 36px; line-height: 40px; font-weight:lighter; }
+.sign-icon { width:75% }
+.sign-icon img { width:100% }
+/*second step style start*/
+.step-wrap { padding-bottom:40px }
+.step-wrap aside { float:left; padding:30px 0 0; width:70%; border-right:1px solid #e0e0e0; }
+.step-wrap aside.last { width:30%; border-right:0 }
+aside.last figure { padding:0 0 0 50px; }
+aside.last figure img { width:85% }
+/*search wrap*/
+#searchWrap { background:#FFFFFF; border-right: 0 none; float: left;  position: relative; 	background:#fff; 	border-right:0; position:relative; float:left }
+#searchWrap input { height:48px; line-height:48px; font-size:14px; font-weight:bolder; border:none; width: calc(100% - 110px); }
+#selwrpa { float:left; position:relative; }
+#sendByEmail button { margin-left:10px;}
+.userCurrency { position: absolute; left: 0; top: 0; height: 30px; line-height: 30px; opacity: 0; padding: 0; border: 0; cursor: pointer; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" }
+.userCurrency option { height:18px; line-height:18px; padding:4px 5px; border-bottom:1px solid #dcdcdc }
+.userCurrency option:hover { background:#eaeaea }
+.currencySelectDropdown {   background: -moz-linear-gradient(center top , #F8F8F8 1%, #E1E1E1 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #BBBBBB;   border-radius: 6px;    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);    color: #444444;    cursor: pointer;    display: inline-block;    font-size: 15px;    overflow: hidden;    padding: 8px;    position: relative; height:23px }
+ #userIderr { clear:both; display:block;}
+.currencySelectDropdown Select { padding: 10px 4px; width: 100px; }
+.pickDown {  display: inline-block;    float: right;    margin-top: 5px;    overflow: hidden;    position: relative;    vertical-align: top; }
+.pickDown:before {   content: url("../images/currency-pick-down-black.png");    display: inline-block;    padding-left: 11px;    position: relative;    right: 2px;    top: 0; }
+.currencySelectDropdown .flag-24 { margin:4px 0 0;}
+.verifyform, .lgBg { border:1px solid #C8C8C8; padding:20px; background:#f4f4f4; }
+.verifyForm { border:1px solid #C8C8C8; border-left:0; padding:9px 0 10px; float:left; width:40% }
+.vrfinpt, .frginpt { height:42px; border:1px solid #e3e3e3; background:#fff; text-indent:10px; }
+.frginpt { width:50%; margin-bottom:10px; }
+.vrfinpt { width:calc(100% - 100px); }
+.btdn { background:#ffcd53; border:1px solid #f0bd3f; color:white; padding:12px 15px 11px; margin-left:10px; }
+.mdf { margin:15px 0; padding-bottom:15px; border-bottom:1px solid #e0e0e0 }
+.para16 a { text-decoration:underline }
+.para16 a:hover { text-decoration:none; color:inherit }
+/*signup buttons*/
+.signin { margin-bottom:15px }
+.button { font-size: 14px; padding: 10px 10px; border-radius:3px; }
+.button i, .button span { float:left; }
+.button i { margin-right:10px }
+.btdn.googleplus { margin-left:0; }
+.button.facebook { background: none repeat scroll 0 0 #3B4998; border: 1px solid #303B7B; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 0 rgba(255, 255, 255, 0.2) inset; color: #FFFFFF; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); }
+.button.facebook:hover { background: none repeat scroll 0 0 #303B7B; }
+.button.facebook:active { background: none repeat scroll 0 0 #3B4998; }
+/*forget pass*/
+#inpwrp input { background:#FFFFFF; border: 1px solid #E3E3E3; height: 39px; text-indent: 10px; width:180px; }
+#searchWrap .codeInput input[type="text"]#mobileNumber { font-size: 16px; font-weight: normal; }
+.codeInput { float:left; border: 1px solid #CCCCCC; margin: 0 0 0 10px; }
+#searchWrap .codeInput input[type="text"] { border:0; }
+#searchWrap .codeInput input[type="text"]#code { float: left; width:50px; }
+#selwrp select { background:#FFFFFF; border: 1px solid #E3E3E3; height: 39px; padding:10px; width:180px; margin-right:10px; }
+aside.last.frg figure img { width:60%; }
+.forgotNo { margin:15px 0 0 }
+#inpwrp.forgotNo input[type="text"].fieldsName { width:50%; float:left; }
+.textInstead { clear: both; font-size: 19px; line-height: 30px; margin: 15px 0 0; font-weight:lighter; }
+.textInstead a, .fontInstead a { font-weight:normal; }
+.fontInstead { font-size:19px; font-weight:lighter; }
+.textChange { margin:25px 0 0 }
+input[type=radio].css-checkbox { display:none; }
+input[type=radio].css-checkbox + label.css-label { background-position: 0 0; background-repeat: no-repeat; cursor: pointer; display: inline-block; font-size: 17px; height: 22px; line-height: 22px; margin-right: 15px; padding-left: 30px; vertical-align: middle; }
+input[type=radio].css-checkbox:checked + label.css-label { background-position: 0 -22px; }
+label.css-label { background:url(../images/radio-img.png) no-repeat; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.signupStep .stepyou { background:url("../images/icon-spirit.png") no-repeat 0 -46px; text-indent:-999em; height: 46px; padding: 0 6px; color:rgba(0, 0, 0, 0); padding:0 6px 0 0; }
+.signupStep .stepI { background:url("../images/icon-spirit.png") no-repeat -88px -45px; text-indent:-999em; color:rgba(0, 0, 0, 0); margin: 0 0 0 6px; padding: 0 10px 0 0; }
+.innerBanner { background: url("../images/clouds.png") no-repeat center 5px; height: 69px; margin: 0 auto;  }
+.wrapper.space { margin:40px auto; }
+#buttonSmsCall button{ margin-left:10px;}
+
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 1140px) {
+#common-banner h2 { margin-top:15px;}
+#searchWrap { float:none; width:100%; margin-bottom:10px; border-right:1px solid #C8C8C8;}
+.verifyForm { border-left:1px solid #C8C8C8; padding:10px; float:none; width:100%}
+}
+@media only screen and (max-width: 768px) {
+.button {margin-bottom:20px}
+.step-wrap aside {   border-right: 0 none;    float: none;   width: 100%;}
+.step-wrap aside.last{ float:none;}
+aside.last figure { padding:0;}
+
+}
+@media only screen and (max-width: 480px) {
+.step-wrap aside {float:none;padding:30px 0 30px;width:100%;border-right:0;}
+.step-wrap aside.last {width:100%;}
+.pdR3 {padding:0}
+aside.last figure {padding:0}
+
+}
+
+@media only screen and (max-width: 550px)
+{
+.codeInput { width:100%; margin:0;}
+#buttons button { margin:5px 0 7px 0 !important;}
+#buttons { clear:both;}
+#buttonSmsCall, #sendByEmail { padding:5px 0 0 0; clear:both;}
+#inpwrp.forgotNo input.fieldsName[type="text"] { width:100%}
+#buttonSmsCall button, #sendByEmail button { margin-left:0;}
+	}

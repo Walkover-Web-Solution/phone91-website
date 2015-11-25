@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*======= about container ========*/
+#feat-container { padding: 50px 0 }
+.mfdnon, .bfdnon { display:none }
+#two-way-call, #user { display:block }
+.circle { list-style: none }
+.circle li { position: relative; width:140px; height:140px; float: left; margin:0 30px; }
+.circle li .style { -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; background-color: #e3e3e3; display: block; -moz-transition: all 600ms ease 0s; -o-transition: all 600ms ease 0s; -webkit-transition: all 600ms ease 0s; transition: all 600ms ease 0s; width:100%; height:100% }
+.navigation li .back_circle { position: absolute; Top: -2px; left: -2px; height: 100%; width: 100%; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); display: block; background-color: transparent; border: 2px solid #296fa2; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 275ms; -moz-transition-duration: 275ms; -o-transition-duration: 275ms; transition-duration: 275ms; }
+.navigation li:hover .back_circle, .navigation li:focus .back_circle, .navigation li.active .back_circle { -moz-opacity: 1; -khtml-opacity: 1; opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)"; filter: alpha(opacity=1); -webkit-transform: scale(1.07); -moz-transform: scale(1.07); -ms-transform: scale(1.07); -o-transform: scale(1.07); transform: scale(1.07); }
+.circle li:hover .style, .circle li.active .style { background-color: #296fa2; }
+.circle li .style a { z-index: 1; position: relative; width: 100%; height: 100%; display:block; color:#666666; }
+.circle li i { position: absolute; margin: 25px 38%; }
+.circle li .style a:hover, .circle li.active .style a { color:#fff }
+.circle li .text { text-transform: uppercase; width: 80%; position: absolute; text-align: center; margin-top: 70px; left:10% }
+.user_icon:hover i, .circle li.active .user_icon i { background-position: 0 -336px }
+.res_icon:hover i, .circle li.active .res_icon i { background-position: -36px -336px }
+.admin_icon:hover i, .circle li.active .admin_icon i { background-position: -72px -336px }
+.conf_icon:hover i, .circle li.active .conf_icon i { background-position:-108px -336px }
+.tag_icon:hover i, .circle li.active .tag_icon i { background-position:-144px -336px }
+.dwn_icon:hover i, .circle li.active .dwn_icon i { background-position:-180px -336px }
+.phone_icon:hover i, .circle li.active .phone_icon i { background-position:-216px -336px }
+.route_icon:hover i, .circle li.active .route_icon i { background-position:-252px -336px }
+.twoway_icon:hover i, .circle li.active .twoway_icon i { background-position:-288px -336px }
+.calcard_icon:hover i, .circle li.active .calcard_icon i { background-position:-324px -336px }
+.callshop_icon:hover i, .circle li.active .callshop_icon i { background-position:-360px -336px }
+/*content*/
+#feat-cnt-wrap { padding:60px 0 30px }
+.sec-row { padding:30px 0; border-bottom:1px solid #cacaca; }
+#feat-cnt-wrap .sec-row:last-child { border-bottom:0; padding-bottom:0 }
+.sec-row aside { width:42%; }
+.sec-row figure { width:30% }
+.sec-row figure img { width:100% }
+/*style for even row*/
+.sec-row.even aside { float:left; }
+.sec-row.even figure { float:right; }
+/*style for odd row*/
+.sec-row.odd aside { float:right; }
+.sec-row.odd figure { float:left; }
+/*==============user type section styles ==============*/
+#utype-sec { padding:50px 0 }
+#utype-sec .circle { padding:40px 0 60px; width:60%; margin:0 auto; }
+.utype-row { padding:30px 0 0 }
+.utype-row figure { float:left; width:20%; text-align:left; }
+.utype-row ul { float:left; width:70%; margin-left:5% }
+.utype-row figure img { width:75% }
+.prdlist li { background:url(../images/list-arrow.png) no-repeat 0 5px; padding-left:30px; margin-bottom:25px; font-size:15px; font-weight:lighter; line-height:26px; }
+.prdlist li p { font-size:20px; color: #296fa2; margin-bottom:8px; }
+.opa{ opacity:0.4; 	filter: alpha(opacity=50); -moz-opacity: 0.2; -khtml-opacity: 0.2; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";}
+  
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 1140px) {
+ .circle li {margin:0 25px}
+}
+@media only screen and (max-width: 980px) {
+ .circle li { margin:0 20px; width:120px; height:120px; font-size:90%}
+ .circle li i { left:50%; margin: 15px 0 0 -18px; position: absolute;}
+ .circle li .text { margin-top: 60px;}
+}
+ @media only screen and (max-width: 768px) {
+ .circle li { margin:0 10px; width:110px; height:110px; font-size:80%}
+ .utype-row ul { margin-left: 5%; width: 75%;}
+}
+ @media only screen and (max-width: 480px) {
+.circle li { width:140px; height:140px; margin:0 20px 25px; font-size:100%}
+.circle li i { left:50%; margin: 30px 0 0 -18px; position: absolute;}
+.circle li .text { margin-top: 80px;}
+.sec-row aside, .sec-row figure, .utype-row figure, .utype-row ul {float:none !important;width:100%}
+.utype-row figure img { width:40%; margin-bottom:40px;}
+}
+ @media only screen and (max-width: 360px) {}
