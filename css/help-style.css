@@ -1,0 +1,83 @@
+li{list-style:none}
+.cl{clear:both}
+#help-banner {padding: 65px 0;border: 1px solid #E9B32E;color: #333;font-weight: lighter;}
+#help-banner h2 {font-size: 36px;line-height: 40px;margin-bottom: 15px;font-weight: lighter;}
+#help-banner aside {float: left;}
+#help-banner .ban-icon{padding:0}
+#help-banner .last {float: left; width:575px; margin-left:30px;}
+#help-banner .accessNumberLast {float: left; width:680px;}
+
+#faq-container{background:#eee; padding-top:40px;}
+#faq-container .wrapper{margin-top:-80px; overflow:hidden;}
+#faq-left{background:#fff; width:650px; padding:35px; 
+-moz-border-radius: 15px 15px 0 0;
+-webkit-border-radius: 15px 15px 0 0;
+border-radius: 15px 15px 0 0;
+-khtml-border-radius: 15px 15px 0 0;
+overflow:hidden;
+float:left;
+min-height:500px;
+}
+#faq-left .h3g{text-align:left; margin-left:20px; color:#296FA2;}
+.topicWid{width:200px; float:left; margin:0 20px 40px 20px; width:285px}
+.topicHead{font-size:24px}
+.topicRightHead{font-size:24px; margin-bottom:5px;}
+.topicSubHead{font-size:16px;}
+.topicInfo{color:#999; font-size:12px}
+.topicList li{list-style:none; border-bottom:1px solid #ddd;}
+.topicList a{padding:10px 0; font-size:18px;color:#296FA2; display:block;}
+.faqsAns{display:none; padding-bottom:20px;}
+.hideQuestion{display:none}
+.viewAllLink{margin-left:10px;}
+
+#faq-right{float:left; padding:70px 35px;}
+#viewAccessNumbers{margin:20px 0; display:block; float:left}
+#gotoHelp{margin:20px 0; display:block; float:left}
+dl dd {float: left;line-height: 14px;}
+dl dt {float: left;margin-right: 10px;}
+
+#searchWrp{position:relative; width:90%;}
+#searchWrp .cmnsprt-24{position:absolute; top:6px; left:6px;}
+#searchWrp input[type=text]{height:40px; padding-left:36px; width:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+
+#accessNumber-container{background:#eee;padding:40px 0;}
+#accessNumber-container .wrapper{overflow:hidden;}
+#whyAccessNoList{margin-left:18px; margin-top:10px;}
+#whyAccessNoList li{list-style:disc; font-size:16px;}
+.numberDes{padding:1em 2.2em}
+.numberDes p{margin-bottom:10px; font-size:13px;}
+#accNum-left{width:650px; float:left;}
+#accNum-right{float:left; padding:0 40px;}
+.ui-widget-content{border:none;}
+.ui-tabs{padding:0;}
+.ui-tabs .ui-tabs-panel{padding:0}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{border:none;border-bottom: 1px solid #ddd;background:none;font-weight: normal;}
+.ui-tabs .ui-tabs-nav {margin:0;padding:0; border-bottom:1px solid #ccc;}
+.ui-widget-content{background:#eee;}
+#tabs .ui-tabs-active{border: 1px solid #ccc; border-bottom:none;background: #eee;font-weight: normal;color: #212121;}
+.ui-widget-header{border:none;  background:#eee;}
+.ui-tabs .ui-tabs-nav li{margin:0;}
+.ui-tabs-nav li:first-child{margin-left:10px}
+.accNumTblHead{padding:1em 2.2em; color:#296fa2; margin-bottom:10px; font-weight:bold;}
+.accNumberUl li{overflow:hidden; padding:5px 0;}
+.accLocation{float:left}
+.accNumber{float:right}
+#callAccess,#smsAccess{min-height:400px}
+.ui-accordion-header{color:#296fa2 !important; font-weight:bold;}
+
+@media only screen and (max-width: 1280px){	
+#faq-left{width: 600px;padding:40px 20px;}
+.topicWid{margin: 0 10px 40px 10px;width: 280px;}
+#faq-right{padding: 70px 20px;}
+}
+
+@media only screen and (max-width: 980px){	
+}
+}
+ @media only screen and (max-width: 768px) {
+}
+ @media only screen and (max-width: 480px) {
+}
+ @media only screen and (max-width: 360px) {
+
+}

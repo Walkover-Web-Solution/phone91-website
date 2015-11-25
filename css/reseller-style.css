@@ -1,0 +1,196 @@
+.addEst .form-row:last-child { margin:0 }
+.addIngRow .lbl { margin-right:23px }
+#res-banner { padding:65px 0 0; border:1px solid #e9b32e; color:#333333; font-weight:lighter; }
+#res-banner h2 { font-size: 36px; line-height: 40px; margin-bottom:15px; font-weight:lighter; }
+#res-banner p { font-size:16px; line-height:28px; width:60%; margin:0 auto 50px }
+#res-banner { padding-bottom:0; border-bottom:0; }
+#res-illus { width: 60%; height: 229px; border: 2px solid #fff; border-bottom: 0; margin: 0 auto; border-top-left-radius: 15px; border-top-right-radius: 15px; }
+#inner { margin:25px 25px 0 25px; border: 3px solid #fff; border-bottom: 0; background:#fff;  height: 211px;    margin: 15px 15px 0;}
+#res-illus aside { border-top:1px solid #ffcd53; width:50%; float:left; height:100%; cursor:pointer; position:relative; overflow:hidden; transition: all 200ms linear 0s; }
+.cc-wrap { border-left:1px solid #ffcd53; }
+.wl-wrap { border-right:1px solid #ffcd53; background:#edf1f0 }
+#res-illus a { color:#666; height:100%; display:block; }
+#res-illus a:hover { color:inherit; background:rgba(0, 0, 0, 0.1) }
+#res-illus figcaption { padding:20px 0; font-size:18px; text-align:center; transition: all 200ms linear 0s; position: relative; }
+#res-illus figure { text-align:center }
+/*special for admin page*/
+#res-illus.admin figure img { width:46% }
+#res-illus.admin a { padding-bottom:20px; }
+#res-illus.admin #inner { height:inherit }
+#res-illus.admin { height:inherit }
+/*reseller hover animation*/
+#res-illus aside:hover figure { position: relative; -webkit-animation: moveFromTop 1000ms ease; -moz-animation: moveFromTop 1000ms ease; -ms-animation: moveFromTop 1000ms ease; color:#fff; }
+#res-illus aside:hover figcaption { -webkit-animation: moveFromBottom 1000ms ease; -moz-animation: moveFromBottom 1000ms ease; -ms-animation: moveFromBottom 1000ms ease; }
+ @-webkit-keyframes moveFromTop { from {
+ top: -600px;
+}
+to { top: auto; }
+}
+@-moz-keyframes moveFromTop { from {
+ -moz-transform: translateY(-600%);
+}
+to { -moz-transform: translateY(0%); }
+}
+@-ms-keyframes moveFromTop { from {
+ -ms-transform: translateY(-600%);
+}
+to { -ms-transform: translateY(0%); }
+}
+ @-webkit-keyframes moveFromBottom { from {
+ bottom: -400px;
+}
+to { bottom: auto; }
+}
+@-moz-keyframes moveFromBottom { from {
+ -moz-transform: translateY(400%);
+}
+to { -moz-transform: translateY(0%); }
+}
+@-ms-keyframes moveFromBottom { from {
+ -ms-transform: translateY(400%);
+}
+to { -ms-transform: translateY(0%); }
+}
+
+.cmnDivdnon {
+    display: none;
+}
+/*======= reseller container ========*/
+#wl-data-res, #res-container, #req-container, .cmnpadCnt { padding:60px 0 }
+.prdhead { margin-bottom:20px }
+.prdhead span { display:inline-block; line-height:36px; float:left; margin-left:15px; font-size:26px; color:#296fa2; }
+.btwrap { padding-bottom:30px; text-align:center }
+.res-feat-row { padding:30px 0 60px 0 }
+/*======= reseller container white label solution ========*/
+#req-container .cnthead { margin-bottom:10px }
+#formwrap { background:#fff; padding:70px 0; margin-top:90px }
+#frmcircle { width:36px; height:36px; padding:18px; border-radius:50%; display:inline-block; position:absolute; top:-36px; left:50%; margin-left:-36px }
+#forminner { width:700px; margin:0 auto }
+.form-row { margin-bottom:20px }
+.lbl { width:230px; margin-right:20px; display:inline-block; line-height:34px; text-align:right; font-size:16px; font-weight:lighter; letter-spacing:1px; vertical-align:top }
+.cmninpt, .cmnsel, .cmntxt { border:1px solid #c8c8c8 }
+.cmninpt { border:1px solid #c8c8c8; height:34px; width:270px; padding-left:10px }
+.cmnsel { border:1px solid #c8c8c8; padding:6px 10px; height:34px; width:270px; line-height:34px }
+#selcntry { width:140px; margin-right:7px }
+#est-vol { width:120px; margin-right:10px }
+#callrate { width:95px }
+.perate { border: 1px solid #C8C8C8; display: inline-block; width: 135px; vertical-align:top }
+.perate input[type="text"] { height:32px; }
+.perate.error_red, .rateamount.error_red { border:1px solid #E65D39; color:#E65D39 }
+.perate.error_red input[type="text"], .rateamount.error_red input[type="text"] { color:#E65D39 }
+.perate.error_green, .rateamount.error_green { border:1px solid #4DAF7C; color:#4DAF7C }
+.perate.error_green input[type="text"], .rateamount.error_green input[type="text"] { color:#4DAF7C }
+.perate input[type="text"], .perate span { border: 0 none; font-size: 14px; width: 95px; vertical-align:middle }
+.perate input[type="text"]:focus { border-style:solid }
+.perate:focus { border-style:dashed }
+.cmntxt { height:116px; padding:10px 0 10px 10px; resize:none; width:270px }
+.form-row input:focus, .form-row textarea:focus { border-style:dashed }
+#addb { background: #666666; cursor: pointer; display: inline-block; height: 16px; padding: 9px; vertical-align: top; width: 16px; }
+#addb.closedb { background:#EB513F; height:16px; width:16px; padding:9px; cursor:pointer; margin-left:3px }
+#mes .h3g { line-height:44px; margin-bottom:40px }
+#mes figure { width:100px; height:100px; margin:0 auto; background-position:right -300px }
+#reseller-data { display:none }
+.estimtVol { display: inline-block; vertical-align: top; width: 117px; }
+.estimtVol.per { width:137px }
+.callingAmount { display:inline-block; }
+.callingAmount input[type="text"] { border: 0 none; font-size: 14px; vertical-align: middle; width: 225px; color:#666666 }
+.callingAmount span.callinratesg { font-size: 13px; margin-right: 12px; vertical-align: middle; width: 95px; }
+.rateamount { border: 1px solid #C8C8C8; position:relative; width:268px; display:inline-block }
+.smallSel { width:130px; }
+.smallinput { width:116px; }
+.estimtVol.per { width:137px; }
+/*============= for ie specific styles ==============*/
+#res-illus aside { *width:49.9%
+}
+.btn-danger { *line-height:52px
+}
+/*============= media queries for reseller page elements ==============*/
+@media only screen and (max-width: 980px) {
+#res-illus {
+width: 80%
+}
+}
+ @media only screen and (max-width: 768px) {
+#reseller-query .form-row label.error {
+clear: both;
+display: block;
+margin: 7px 0 0 0
+}
+#forminner {
+width: 70%
+}
+.lbl, .cmninpt, .cmnsel, .cmntxt {
+width:100%
+}
+.lbl {
+text-align:left
+}
+#res-banner p {
+width:90%
+}
+}
+ @media only screen and (max-width: 480px) {
+#res-illus, #inner {
+height:inherit
+}
+#res-illus aside {
+float:none;
+width:100%
+}
+.cc-wrap {
+border-right:1px solid #ffcd53;
+border-bottom:0
+}
+.wl-wrap {
+border-left:1px solid #ffcd53
+}
+.res-feat-row aside {
+float:none;
+width:100%;
+margin-bottom:30px
+}
+.res-feat-row aside > .pdR3 {
+padding:0
+}
+.res-feat-row aside > .pdL3 {
+padding:0
+}
+#selcntry, #est-vol, #callrate {
+width:100%;
+margin:0 0 10px 0
+}
+#addb {
+float:right
+}
+#res-illus aside {
+float:none;
+margin:0 auto;
+clear:both;
+}
+#res-illus aside {
+width:auto !important;
+}
+#inner {
+margin:0 auto !important;
+}
+.prdhead span {
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+width:175px;
+}
+ .callingAmount input[type="text"], .perate input[type="text"], .perate span {
+width:auto;
+}
+ .rateamount {
+width:100%;
+}
+ .estimtVol, .estimtVol.per, .perate {
+width:100%
+}
+}
+ @media only screen and (max-width: 360px) {
+#res-illus {
+width:90%
+}
+}

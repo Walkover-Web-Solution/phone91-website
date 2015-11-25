@@ -1,0 +1,233 @@
+#res-banner{
+	padding:65px 0 0;
+	border:1px solid #e9b32e;
+	color:#333333;
+	font-weight:lighter;
+}
+#res-banner h2 {
+    font-size: 36px;
+    line-height: 40px;
+	margin-bottom:15px;
+	font-weight:lighter;
+}
+#res-banner p{
+	font-size:16px;
+	line-height:28px;
+	width:60%; margin:0 auto 50px
+}
+
+#res-banner {
+	padding-bottom:0;
+	border-bottom:0;
+}
+#res-illus{
+	width: 60%;
+	height: 370px;
+	border: 3px solid #fff;
+	border-bottom: 0;
+	margin: 0 auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+#inner{
+	margin:25px 25px 0  25px;
+	border: 3px solid #fff;
+	border-bottom: 0;
+	background:#fff;
+	height:343px;
+}
+#res-illus aside{
+	border-top:1px solid #ffcd53;
+	width:50%;
+	float:left;
+	height:100%;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+	transition: all 200ms linear 0s;
+}
+.cc-wrap{
+	border-left:1px solid #ffcd53;
+}
+.wl-wrap{
+	border-right:1px solid #ffcd53;
+	background:#edf1f0
+}
+#res-illus a{color:#666; height:100%; display:block;}
+#res-illus a:hover{color:inherit; background:rgba(0,0,0,0.1)}
+#res-illus figcaption{padding:20px 0; font-size:18px; text-align:center;transition: all 200ms linear 0s;position: relative;}
+#res-illus figure{text-align:center}
+#res-illus figure img{width:73%}
+
+/*reseller hover animation*/
+#res-illus aside:hover figure {
+	position: relative;
+    -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+	color:#fff;
+}
+#res-illus aside:hover figcaption {
+	
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+
+@-webkit-keyframes moveFromTop {
+    from {
+        top: -600px;
+    }
+    to {
+       	top: auto;
+    }
+}
+@-moz-keyframes moveFromTop {
+    from {
+        -moz-transform: translateY(-600%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromTop {
+    from {
+        -ms-transform: translateY(-600%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        bottom: -400px;
+    }
+    to {
+       	bottom: auto;
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(400%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(400%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*======= reseller container ========*/
+#res-container, #req-container, #wl-data-res{padding:60px 0}
+.prdhead{
+	margin-bottom:20px
+}
+.prdhead span{
+	display:inline-block;
+	line-height:36px;
+	float:left;
+	margin-left:15px;
+	font-size:30px;
+	color:#296fa2;
+}
+.btwrap{padding-bottom:30px; text-align:center}
+.res-feat-row{padding:30px 0 60px 0 }
+/*======= reseller container white label solution ========*/
+#req-container .cnthead{margin-bottom:10px;}
+#formwrap{
+	background:#fff;
+	padding:70px 0;
+	margin-top:90px;
+}
+#frmcircle{
+	width:36px;
+	height:36px;
+	padding:18px;
+	border-radius:50%;
+	display:inline-block;
+	position:absolute;
+	top:-36px;
+	left:50%;
+	margin-left:-36px;
+}
+#forminner{
+	width:700px;
+	margin:0 auto
+}
+.form-row{ margin-bottom:20px;}
+.lbl{ width:230px; margin-right:20px; display:inline-block; line-height:34px; text-align:right; font-size:16px; font-weight:lighter; letter-spacing:1px}
+.cmninpt, .cmnsel, .cmntxt{border:1px solid #c8c8c8;}
+.cmninpt{border:1px solid #c8c8c8; height:34px; width:270px; padding-left:10px;}
+.cmnsel{border:1px solid #c8c8c8; padding:6px 10px; height:34px; width:270px; line-height:34px; }
+#selcntry{width:140px; margin-right:7px;}
+#est-vol{width:120px; margin-right:10px;}
+#callrate{width:95px; margin-right:10px;}
+.cmntxt{ height:116px; padding:10px 0 10px 10px; resize:none; width:270px;}
+
+.form-row input:focus, .form-row textarea:focus{border-style:dashed}
+
+#addb{background:#666; height:16px; width:16px; padding:9px; cursor:pointer;}
+
+#mes .h3g {line-height:44px; margin-bottom:40px;}
+#mes figure{width:100px; height:100px; margin:0 auto; background-position:right -300px;}
+
+#reseller-data{display:none}
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 1140px) {
+}
+@media only screen and (max-width: 980px) {
+	#res-illus{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#forminner {
+		width: 70%;
+	}
+	.lbl, .cmninpt, .cmnsel, .cmntxt{ width:100%;}
+	.lbl{
+		text-align:left;
+	}
+	#res-banner p{
+		width:90%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#res-illus, #inner{height:inherit}
+	#res-illus aside{
+		float:none;
+		width:100%
+	}
+	.cc-wrap{border-right:1px solid #ffcd53; border-bottom:0}
+	.wl-wrap{border-left:1px solid #ffcd53;}
+	
+	.res-feat-row{}
+	.res-feat-row aside{float:none; width:100%; margin-bottom:30px}
+	.res-feat-row aside > .pdR3{padding:0}
+	.res-feat-row aside > .pdL3{padding:0}
+	
+	#selcntry, #est-vol, #callrate{width:100%; margin:0 0 10px 0;}
+	#addb{ float:right;}
+}
+
+@media only screen and (max-width: 360px) {
+	#res-illus{width:90%}
+}

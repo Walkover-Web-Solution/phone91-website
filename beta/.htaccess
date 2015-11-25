@@ -1,0 +1,31 @@
+RewriteEngine on
+
+Header add Strict-Transport-Security "max-age=157680000"
+
+
+RewriteCond %{http_host} ^www\.phone91\.com [NC]
+RewriteRule ^(.*)$ https://phone91.com/$1 [R=301,NC]
+
+
+Rewritecond %{HTTP_HOST} !^js.phone91.com [nc]
+Rewritecond %{HTTP_HOST} !^css.phone91.com [nc]
+Rewritecond %{HTTP_HOST} !^images.phone91.com [nc]
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Permanent URL redirect 
+Redirect 301 /integration.php https://phone91.com/api-integration.php
+Redirect 301 /voipreseller.php https://phone91.com/reseller.php
+Redirect 301 /androidvoipcalling.php https://phone91.com/downloads.php#android
+Redirect 301 /callingoverseas.php https://phone91.com
+Redirect 301 /cheapcallingcards.php https://phone91.com/features.php#calling-cards
+Redirect 301 /fring.php http://blog.phone91.com/international-calling-dialer/
+Redirect 301 /gmail.php http://blog.phone91.com/gtalk-to-voice-call/
+Redirect 301 /gtalk-voip.php http://blog.phone91.com/gtalk-to-voice-call/
+Redirect 301 /internationalcall.php https://phone91.com
+Redirect 301 /voipmobiledialer.php https://phone91.com/downloads.php
+Redirect 301 /nimbuzz.php http://blog.phone91.com/international-calling-dialer/
+Redirect 301 /phonecall.php https://phone91.com/features.php
+Redirect 301 /voipcall.php http://blog.phone91.com/online-international-voice-calls/
+Redirect 301 /sipcall.php http://blog.phone91.com/sip-calls/
+ErrorDocument 404 /404.php

@@ -1,0 +1,30 @@
+/* * In this file you can find only common object styles */
+@media only screen and (max-width: 1140px) {
+.wrapper {width: 90%;margin: 0 auto;}
+}
+@media only screen and (max-width: 980px) {
+header{height:inherit}
+header h1 {float:none;width:104px;margin:0 auto;padding:20px 0 15px;}
+nav {float:none;width:100%;height:56px;clear:both;}
+nav > ul{width:600px;margin:0 auto;}
+}
+@media only screen and (max-width: 768px) {
+header h1 {	float:left;	width:104px;	padding: 8px 0;	margin:inherit}
+nav{	display:none}
+#mob-trigger{	display:block;	float:right;}
+footer .col4{	width:100%;	margin-bottom:30px;	text-align:center;}
+footer aside {	width: 100%;}
+#common-banner aside{	float:none;	width:44%;	margin:0 auto 30px;}
+#common-banner aside.last{	width:100%;	float:none;	text-align:center;}
+#common-banner p{	width:100%}
+}
+@media screen and (min-width: 25em) {
+}
+@media only screen and (max-width: 480px)  {
+#common-banner aside{	width:70%;	margin:0 auto 30px;}
+#bottom-ftr {	height:inherit}
+#bottom-ftr span{float:none; text-align:center; display:block}
+.info-msg {	line-height: 70px;}
+.social-icon {	width:inherit;}
+.social-icon li {	margin-bottom:15px}
+}

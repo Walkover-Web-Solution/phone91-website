@@ -1,0 +1,107 @@
+/*======= about container ========*/
+#abt-intro { padding:50px 0 }
+#abt-intro aside { display:block }
+#intro-circle { background:#296fa2; border-radius:50%; width:142px; height:86px; padding: 72px 44px; margin:0 auto; }
+.cmnsprt-thestart { background-position:-658px -124px; width:142px; height:86px; }
+.medP { font-size:16px; line-height:28px; letter-spacing:1px; margin: 15px 0 0 20px; }
+/*second section more info*/
+#top-brd-sec { width:80%; margin:0 auto 80px; border:6px solid #c8c8c8; padding:30px; border-top:0; font-size:24px; line-height:34px; position:relative; }
+#top-brd-sec span, #btmart span { height:70px; width:6px; background: #c8c8c8; display:inline-block; position:absolute; left:8%; bottom:-70px; }
+#btmart { position:relative; height:6px; background:#c8c8c8; margin-bottom:35px; }
+#btmart span { left:20%; }
+#team-members, #prd-info { padding:40px 0; }
+.theteam li { display: inline-block; height: 240px; width: 240px; margin-right:10px; margin-bottom:10px; }
+.theteam li.last { margin-right:0 }
+.teammember { background-position: 50% 50%; background-size: cover; }
+.teammember { cursor: default; height: 100%; position: relative; transition: all 0.3s ease-in-out 0s; width: 100%; }
+.teammember .info { display: table; height: 100%; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); position: absolute; text-align: center; transform: scale(0); transition: all 0.3s ease-in-out 0s; width: 100%; }
+.teammember .info div { display: table-cell; vertical-align: middle; }
+.teammember h3 { font-size: 1.8em; font-weight: 100; }
+.teammember h3, .teammember h4 { color: #FFFFFF; margin: 10px 15px 5px; position: relative; }
+.teammember h4 { border-bottom: 1px solid rgba(255, 255, 255, 0.3); font-size: 13px; font-weight: 500; line-height: 150%; margin-bottom: 15px; padding-bottom: 15px; text-transform: uppercase; }
+.teammember .info p { color: #FFFFFF; font-size: 12px; }
+.teammember .info p a { color: rgba(255, 255, 255, 0.8); font-style: normal; font-weight: 500; text-transform: uppercase; }
+.theteam li:nth-child(2n) .teammember:hover {
+ box-shadow: 0 0 0 400px rgba(24, 183, 88, 0.7) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.theteam li:nth-child(3n) .teammember:hover {
+ box-shadow: 0 0 0 400px rgba(244, 148, 69, 0.7) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.theteam li:nth-child(3n+1) .teammember:hover {
+ box-shadow: 0 0 0 400px rgba(232, 76, 60, 0.7) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.theteam li .teammember:hover { box-shadow: 0 0 0 400px rgba(31, 159, 202, 0.7) inset, 0 1px 2px rgba(0, 0, 0, 0.1); }
+.teammember:hover .info { opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter: alpha(opacity=10); transform: scale(1); }
+.teammember .info p a:hover { color: #fff; }
+.theteam li.last { margin-right:0; }
+#jen-hawkins { background-image: url("../images/team/selhoute.jpg"); }
+#ashish-yadav { background-image: url("../images/team/ashish-yadav.jpg"); }
+#adam-liechty { background-image: url("../images/team/selhoute.jpg"); }
+#amanda-buzard { background-image: url("../images/team/selhoute.jpg"); }
+#adam-liechti { background-image: url("../images/team/selhoute.jpg"); }
+#vikas-wasiya { background-image: url("../images/team/vikas-wasiya.jpg"); }
+#sameer-rathod { background-image: url("../images/team/sameer-rarthod.jpg"); }
+#ankit-patidar { background-image: url("../images/team/ankit-patidar.jpg"); }
+#rahul-chordiya { background-image: url("../images/team/rahul-chordia.jpg"); }
+#rahul-pahuja { background-image: url("../images/team/rahul-pahuja.jpg"); }
+#nidhi-sen { background-image: url("../images/team/nidhi-sen.jpg"); }
+#sudheer-pandey { background-image: url("../images/team/sudheer-pandey.jpg"); }
+.prdhead { margin-bottom:20px }
+.prdhead span { display:inline-block; line-height:36px; float:left; margin-left:15px; font-size:24px; color:#333333; }
+.prdlist { font-size:16px; font-weight:lighter; line-height:24px; }
+.prdlist li { background:url(../images/list-arrow.png) no-repeat 0 5px; padding-left:30px; margin-bottom:8px; }
+/*=======for iE===========*/
+.theteam li { *display:block;
+*float:left;
+}
+
+
+
+/*============= media queries for index page elements ==============*/
+@media only screen and (max-width: 980px) {
+ .theteam li {
+ font-size: 70%;
+ height: 192px;
+ width: 192px;
+}
+}
+@media only screen and (max-width: 768px) {
+ #abt-intro [class^="col-"], #more-info [class^="col-"] {
+ float:none;
+ width:100%;
+}
+ #abt-intro .col-3, #more-info .col-3 {
+ margin-bottom:30px;
+}
+ #more-info .col-3 figure {
+ width:24%;
+ margin:0 auto
+}
+ .theteam li {
+ height: 144px;
+ width: 144px;
+}
+}
+@media only screen and (max-width: 480px) {
+ .theteam li {
+ height: 192px;
+ width: 45%;
+}
+ .theteam li:nth-child(even) {
+ margin-right:0;
+}
+ #prd-info aside {
+float:none;
+width:100%;
+margin-bottom:30px;
+}
+ #prd-info aside > div {
+padding:0
+}
+}
+@media only screen and (max-width: 360px) {
+ .theteam li {
+ height: 140px;
+ width: 45%;
+}
+}
